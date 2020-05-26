@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $.getJSON("https://api.mcsrvstat.us/2/play.boredindahouse.ga", function(json) {
-        $("#desc").text(json.motd.clean[0]);
+        $("#desc").text("Asian Minecraft server :: " + json.motd.clean[0]);
         $("#version").text(json.version);
         if (json.online === true) {
             $("#status").text("Online ✔️");
