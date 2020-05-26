@@ -39,7 +39,7 @@ body {
     left: 30px;
     top: 30px;
     font-size: 15px;
-    font-family: Retro Gaming;
+    font-family: 'Retro Gaming';
     color: #ffe8cc;
     opacity: 0.8;
     transition: opacity 0.2s;
@@ -59,7 +59,7 @@ body {
 
 #credits a {
     font-size: 15px;
-    font-family: Retro Gaming;
+    font-family: 'Retro Gaming';
     color: #ffe8cc;
 }
 
@@ -69,7 +69,7 @@ body {
     left: 30px;
     top: 60px;
     font-size: 15px;
-    font-family: Retro Gaming;
+    font-family: 'Retro Gaming';
     color: #ffe8cc;
     opacity: 0.8;
     transition: opacity 0.2s;
@@ -89,7 +89,7 @@ body {
 
 #discordDiv a {
     font-size: 15px;
-    font-family: Retro Gaming;
+    font-family: 'Retro Gaming';
     color: #ffe8cc;
 }
 
