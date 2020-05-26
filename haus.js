@@ -28,5 +28,11 @@ $(document).ready(function () {
     }, function() {
         $("#credits").css("opacity", 0);
     });
+    
+    $("#discordLink").hover(function() {
+        $("#discordDiv").css("opacity", 0.7);
+    }, function() {
+        $("#discordDiv").css("opacity", 0);
+    });
 
 });
