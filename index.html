@@ -1,0 +1,57 @@
+<html>
+
+<link rel="stylesheet" href="haus.css">
+
+<body>
+    <div id='container'>
+        <img id='logo' src='https://cdn.discordapp.com/attachments/712324614377832489/714757385306243212/bidh-test.png'>
+        <div id='one'>
+            <a class='header'>What we're about!</a>
+            <a class='desc' id='desc'>desc</a>
+        </div>
+        <div id='two'>
+            <div id='left'>
+                <a class='header'>Version</a>
+                <a class='desc' id='version'>version</a>
+            </div>
+            <div id='right'>
+                <a class='header'>Status</a>
+                <a class='desc' id='status'>Online ✔️❌</a>
+            </div>
+        </div>
+        <div id='three'>
+            <a class='header'>Players online</a>
+            <a class='desc' id='players'>0/10</a>
+        </div>
+        <div id='four'>
+            <a class='header'>Player names</a>
+            <a class='desc' id='names'>Dyck</a>
+        </div>
+        <a id='button'>Join now! play.boredindahouse.ga</a>
+    </div>
+</body>
+
+<script src='https://www.gstatic.com/firebasejs/7.14.4/firebase.js'></script>
+<script src='https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='haus.js'></script>
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyD77Oh2RnhaU5gP31V-jMwtusa30Kgu5ds",
+        authDomain: "lefrost-9b9eb.firebaseapp.com",
+        databaseURL: "https://lefrost-9b9eb.firebaseio.com",
+        projectId: "lefrost-9b9eb",
+        storageBucket: "lefrost-9b9eb.appspot.com",
+        messagingSenderId: "680917525906",
+        appId: "1:680917525906:web:7bb1fb1b420653413dcd4b",
+        measurementId: "G-1EGNLPJFBL"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    
+</script>
+
+</html>
