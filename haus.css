@@ -34,6 +34,37 @@ body {
     opacity: 1;
 }
 
+#creditsTag {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 15px;
+    font-family: 'Retro Gaming';
+    color: #ffe8cc;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+#creditsTag:hover {
+    opacity: 1;
+}
+
+#credits {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+#credits a {
+    font-size: 15px;
+    font-family: 'Retro Gaming';
+    color: #ffe8cc;
+}
+
+
+
 #one, #two div, #three, #four {
     display: flex;
     flex-direction: column;
@@ -49,14 +80,14 @@ body {
 }
 
 #container div .header {
-    font-family: Retro Gaming;
+    font-family: 'Retro Gaming';
     font-size: 25px;
     color: #f2b544;
     text-shadow: -1px 0 #4a2d0a, 0 3px #4a2d0a, 5px 0 #4a2d0a, 0 2px #4a2d0a;
 }
 
 #container div .desc {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
     color: #ffe8cc;
@@ -86,7 +117,7 @@ body {
 
 #container #button {
     font-size: 25px;
-    font-family: Retro Gaming;
+    font-family: 'Retro Gaming';
     background-color: #f2b544;
     padding: 10px 20px 10px 20px;
     color: #4a2d0a;
