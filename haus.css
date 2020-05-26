@@ -39,7 +39,7 @@ body {
     left: 30px;
     top: 30px;
     font-size: 15px;
-    font-family: 'Retro Gaming';
+    font-family: Retro Gaming;
     color: #ffe8cc;
     opacity: 0.8;
     transition: opacity 0.2s;
@@ -51,19 +51,47 @@ body {
 
 #credits {
     position: absolute;
-    left: 60px;
-    top: 60px;
+    left: 150px;
+    top: 30px;
     opacity: 0;
     transition: opacity 0.2s;
 }
 
 #credits a {
     font-size: 15px;
-    font-family: 'Retro Gaming';
+    font-family: Retro Gaming;
     color: #ffe8cc;
 }
 
+#discordLink {
+    position: absolute;
+    text-decoration: none;
+    left: 30px;
+    top: 60px;
+    font-size: 15px;
+    font-family: Retro Gaming;
+    color: #ffe8cc;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
 
+#discordLink:hover {
+    opacity: 1;
+}
+
+#discordDiv {
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+#discordDiv a {
+    font-size: 15px;
+    font-family: Retro Gaming;
+    color: #ffe8cc;
+}
 
 #one, #two div, #three, #four {
     display: flex;
