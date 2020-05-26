@@ -22,5 +22,11 @@ $(document).ready(function () {
         }
         $("#names").text(names);
     });
+    
+    $("#creditsTag").hover(function() {
+        $("#credits").css("opacity", 0.7);
+    }, function() {
+        $("#credits").css("opacity", 0);
+    });
 
 });
